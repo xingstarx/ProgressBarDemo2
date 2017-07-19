@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         progressBar = (RefreshProgressBar) findViewById(R.id.progressBar);
         progressBar.setColorSchemeColors
-                (Color.parseColor("#e41e26"), Color.parseColor("#d43093"),
-                        Color.parseColor("#e47626"), Color.parseColor("#e41e26"));
+                (Color.parseColor("#ef2620"), Color.parseColor("#ffa600"),
+                        Color.parseColor("#ffee33"), Color.parseColor("#20ef35"));
 
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
